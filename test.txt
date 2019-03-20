@@ -1,0 +1,22 @@
+HTTP TCP 80 54.158.243.30/32 
+HTTP TCP 80 3.81.227.41/32 
+HTTP TCP 80 18.215.158.158/32 
+All traffic All All sg-0f895a45 (SG-bigdata-test) 
+All traffic All All sg-0a7d0fc101b7fc806 (SG-BDP-prod) 
+All traffic All All sg-7a796531 (SG-bigdata-prod) 
+All traffic All All sg-0c0d1dea3b6def821 (SG-Office) 
+SSH TCP 22 10.0.0.0/16 
+SSH TCP 22 sg-03d822d4c0b888b34 (SG-SGT-jumpserver-prod) 
+Custom TCP Rule TCP 8443 207.171.167.25/32 
+TCP 8443 54.240.217.8/29 Custom TCP Rule 
+8443 72.21.196.64/29 Custom TCP Rule TCP 
+72.21.198.64/29 Custom TCP Rule TCP 8443 
+Custom TCP Rule TCP 8443 54.239.98.0/24 
+TCP 8443 207.171.167.101/32 Custom TCP Rule 
+8443 207.171.167.26/32 Custom TCP Rule TCP 
+72.21.217.0/24 Custom TCP Rule TCP 8443 
+Custom TCP Rule TCP 8443 54.240.217.64/28 
+TCP 8443 207.171.172.6/32 All UDP 
+0 - 65535 sg-02d42f230a2c931ba (SG-BDP-test) Custom TCP Rule TCP 
+sg-0743c7c9032b88537 (SG-ALB-OFFICE) SG-ALB-OFFICE All ICMP - IPv4 All 
+sg-02d42f230a2c931ba (SG-BDP-test) Custom TCP Rule TCP 9100 
